@@ -1,3 +1,31 @@
+//COIN FLIP REDUX
+
+// let coinFlip; 
+// let x = parseInt(prompt('Give me a number'));
+// for ( i = x; i >= 0; i--) {
+//     let coinFlip = Math.round(Math.random());
+//     if (coinFlip === 0) {
+//         let flipResult = console.log('heads');
+//     } else {
+//         let flipResult = console.log('Tails!');
+//     }
+// }
+
+//COIN FLIP STREAK
+
+// let coinFlip;
+// do {
+//     let coinFlip = Math.round(Math.random());
+//     if (coinFlip === 0) {
+//         let flipResult = console.log('heads');
+//     } 
+// } while ( coinFlip === 1)
+//     let flipResult = console.log('Tails! Game over');
+
+
+
+
+
 //LOOPING A TRIANGLE
 
 // let content = '';

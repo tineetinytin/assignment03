@@ -9,16 +9,36 @@
 
 //ODD OR EVEN
 
-// for (let x=0; x<=15; x++) {
-//     if (x === 0) {
-//             console.log(x +  " is even");
+// for (let i = 0; i <= 15; i++) {
+//     if (i === 0) {
+//             console.log(i +  " is even");
 //     }
-//     else if (x % 2 === 0) {
-//             console.log(x + " is even");   
+//     else if (i % 2 === 0) {
+//             console.log(i + " is even");   
 //     }
 //     else {
-//             console.log(x + " is odd");
+//             console.log(i + " is odd");
 //     }
 // }
 
 //MARCO! POLO! 
+
+// for(let i = 1; i <=100; i++) {
+//     if( i % 3 === 0 && i % 5 === 0) {
+//         console.log('MARCO! POLO!');
+//     } else if(i % 3 === 0) {
+//         console.log('MARCO!');
+//     } else if(i % 5 === 0) {
+//         console.log('POLO!');
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+//COUNTDOWN
+
+// let x = parseInt(prompt('Give me number.'));
+// for (let i = x; i >= 0; i--) {
+//     console.log(i);
+// }
+

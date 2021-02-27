@@ -22,10 +22,6 @@
 // } while ( coinFlip === 1)
 //     let flipResult = console.log('Tails! Game over');
 
-
-
-
-
 //LOOPING A TRIANGLE
 
 // let content = '';

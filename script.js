@@ -2,12 +2,12 @@
 
 // let coinFlip; 
 // let x = parseInt(prompt('Give me a number'));
-// for ( i = x; i >= 0; i--) {
+// for ( i = x; i > 0; i--) {
 //     let coinFlip = Math.round(Math.random());
 //     if (coinFlip === 0) {
-//         let flipResult = console.log('heads');
+//         console.log('Heads');
 //     } else {
-//         let flipResult = console.log('Tails!');
+//         console.log('Tails');
 //     }
 // }
 
@@ -15,12 +15,12 @@
 
 // let coinFlip;
 // do {
-//     let coinFlip = Math.round(Math.random());
+//     coinFlip = Math.round(Math.random());
 //     if (coinFlip === 0) {
-//         let flipResult = console.log('heads');
+//         console.log('Heads');
 //     } 
-// } while ( coinFlip === 1)
-//     let flipResult = console.log('Tails! Game over');
+// } while (coinFlip === 1)
+//         console.log('Tails! Game over');
 
 //LOOPING A TRIANGLE
 
@@ -34,14 +34,11 @@
 //ODD OR EVEN
 
 // for (let i = 0; i <= 15; i++) {
-//     if (i === 0) {
-//             console.log(i +  " is even");
-//     }
-//     else if (i % 2 === 0) {
-//             console.log(i + " is even");   
+//     if (i === 0 || i % 2 === 0) {
+//             console.log(i +  ' is even');
 //     }
 //     else {
-//             console.log(i + " is odd");
+//             console.log(i + ' is odd');
 //     }
 // }
 
@@ -49,11 +46,11 @@
 
 // for(let i = 1; i <=100; i++) {
 //     if( i % 3 === 0 && i % 5 === 0) {
-//         console.log('MARCO! POLO!');
+//         console.log('Marco! Polo!');
 //     } else if(i % 3 === 0) {
-//         console.log('MARCO!');
+//         console.log('Marco!');
 //     } else if(i % 5 === 0) {
-//         console.log('POLO!');
+//         console.log('Polo!');
 //     } else {
 //         console.log(i);
 //     }
